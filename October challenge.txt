@@ -1,0 +1,84 @@
+Voici un exemple :
+
+La liste des élèves : « Vous, Théo, Léa, Bob, Julie, Robert »
+			0	1    2	   3    4       5
+
+Les groupes de la première semaine : « Vous, Robert », « Théo, Julie », « Léa, Bob »
+
+Les groupes de la deuxième semaine : « Vous, Julie », « Robert, Bob », « Théo, Léa »
+
+Les groupes de la troisième semaine : « Vous, Bob », « Julie, Léa », « Robert, Théo »
+
+Les groupes de la quatrième semaine : « Vous, Léa », « Bob, Théo », « Julie, Robert »
+
+Les groupes de la cinquième semaine : « Vous, Théo », « Léa, Robert », « Bob, Julie »
+
+Vous remarquerez que vous avez un partenaire différent chaque semaine, et il en est de même pour les autres participants, voici donc tout l’intérêt de cet exercice.
+
+ 
+
+Vos responsables vous mettent donc au défi de développer une méthode qui permet de générer automatiquement chaque groupe pour ces semaines.
+
+
+
+1er semaine  : 0 - 5 / 1 - 4 / 2 - 3
+2 eme semaine: 0 - 4 / 5 - 3 / 1 - 2
+3eme semaine : 0 - 3 / 4 - 2 / 5 - 1
+4 e semaine  : 0 - 2 / 3 - 1 / 4 - 5
+5e semaine   : 0 - 1 / 2 - 5 / 3 - 4 
+
+
+array = ["Johan", "Théo", "Léa", "Bob", "Julie", "Robert"]
+
+
+L’objectif est de réaliser de nouveaux binômes inédits à chaque session, nous entendons par là, que chaque apprenant doit avoir été en groupe avec tout le monde, une seule et unique fois, sur la période complète.
+
+
+
+
+ <div class="container">
+      <table class="collapse">
+        <thead>
+          <tr>
+            <th colspan="4">Groupe des élèves sur 5 semaines</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="week1">Semaine 1</th>
+            <td>G1</td>
+            <td>G2</td>
+            <td>G3</td>
+          </tr>
+
+          <tr>
+            <th id="week2">Semaine 2</th>
+            <td>G1</td>
+            <td>G2</td>
+            <td>G3</td>
+          </tr>
+
+          <tr>
+            <th id="week">Semaine 3</th>
+            <td>G1</td>
+            <td>G2</td>
+            <td>G3</td>
+          </tr>
+
+          <tr>
+            <th id="week">Semaine 4</th>
+            <td>G1</td>
+            <td>G2</td>
+            <td>G3</td>
+          </tr>
+
+          <tr>
+            <th id="week">Semaine 5</th>
+            <td>G1</td>
+            <td>G2</td>
+            <td>G3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div></div>
