@@ -1,5 +1,3 @@
-// faire un tableau avec manipulation du DOM
-
 const student = [
   {
     studentName: "Johan",
@@ -37,6 +35,3 @@ function generateGroupOfWork() {
   }
 }
 
-// Faire un button qui genere la fonction > ok
-// Amelioration possible sur JS avec les litteraux de gabarits
-// Amelioration avec string interpolation, à continuer sur Angular
